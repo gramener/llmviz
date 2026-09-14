@@ -2,7 +2,7 @@ import { getProfile } from "https://aipipe.org/aipipe.js";
 import { llmviz } from "./llmviz.js";
 
 const { token, email } = getProfile();
-if (!token) window.location = `https://aipipe.org/login?redirect=${window.location.href}`;
+if (!token) window.location = `https://aipipe.org/login?redirect=${encodeURIComponent(window.location.href)}`;
 
 const $output = document.querySelector("#output");
 const num1 = new Intl.NumberFormat("en-US", {
