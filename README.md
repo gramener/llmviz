@@ -129,6 +129,8 @@ So high probabilities don't necessarily mean the LLM is correct. They just mean 
 
 # Try it out
 
+<a href="app.html" target="_blank" rel="noopener">Open app in new tab</a>
+
 [Try it out](app.html ":include height=600px")
 
 You can get the raw JSON response from OpenAI's API by running this command, modifying the parameters as required.
